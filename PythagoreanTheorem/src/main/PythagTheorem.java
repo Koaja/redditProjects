@@ -2,10 +2,6 @@ package main;
 
 public class PythagTheorem {
 
-	static double sideA;
-	static double sideB;
-	static double hypotenuse;
-
 	public static void main(String[] args) {
 
 		System.out.println(getHypotenuse(3, 4));
