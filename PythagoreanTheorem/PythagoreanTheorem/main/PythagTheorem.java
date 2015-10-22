@@ -5,7 +5,7 @@ public class PythagTheorem {
 	public static void main(String[] args) {
 
 		System.out.println(getHypotenuse(3, 4));
-		System.out.println(getSideA(10, 7));
+		System.out.println(getSideA(10, 4));
 		System.out.println(getSideB(15, 3));
 
 	}
@@ -23,6 +23,6 @@ public class PythagTheorem {
 	public static double getHypotenuse(double sideB, double sideA) {
 
 		return Math.sqrt(sideB * sideB + sideA * sideA);
-	}
 
+	}
 }
