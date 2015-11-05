@@ -1,4 +1,4 @@
-package main;
+package PythagoreanTheorem;
 
 public class PythagTheorem {
 
