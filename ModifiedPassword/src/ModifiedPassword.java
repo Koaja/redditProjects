@@ -4,19 +4,21 @@ public class ModifiedPassword {
 	public static void main(String[] args) {
 		String password = "";
 		int loginAttempts = 0;
+		String passwordAttempt = "";
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Enter your password: ");
 		password = input.nextLine();
-		System.out.println("Password has been successfully saved.");
-		while (true) {
+		System.out.println("\nPassword has been successfully saved.\n");
+
+		while (!passwordAttempt.equals(password)) {
 			System.out.println("Enter password to login: ");
-			String passwordAttempt = input.nextLine();
+			passwordAttempt = input.nextLine();
 			System.out.println();
 			if (passwordAttempt.equals(password)) {
 				System.out.println("You dog you , you managed to remember your password and it only took you "
 						+ loginAttempts + " attempts\n");
-				System.out.println("You can now access Vatican's secret library");
+				System.out.println("You can now access Vatican's secret library\n");
 
 				while (passwordAttempt.equals(password)) {
 					System.out.println("1. View library");
