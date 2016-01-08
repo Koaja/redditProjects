@@ -9,7 +9,6 @@ public class ModifiedPassword {
 		System.out.print("Enter your password: ");
 		password = input.nextLine();
 		System.out.println("Password has been successfully saved.");
-
 		while (true) {
 			System.out.println("Enter password to login: ");
 			String passwordAttempt = input.nextLine();
